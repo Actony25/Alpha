@@ -23,6 +23,6 @@
   Classmates<br/>
     -@exuberantram
     -@jfg357
-    -@TPettis
+    -@TPettis<br/>
   Professor<br/>
   -@profvanselow
