@@ -1,11 +1,10 @@
 /**
- Author: Anthony Cangelosi
- Description: Abstract Product class to create and display a full product, utilizing the basis
- from the Item Interface.
- Date: 9/29/18
+ * Author: Anthony Cangelosi Description: Abstract Product class to create and display a full
+ * product, utilizing the basis from the Item Interface. Date: 9/29/18
  */
 
 //importing java utilities to allow creation of a date method
+
 import java.util.Date;
 
 /*An abstract class can't be instantiated. Similar to interfaces but can have concrete classes
@@ -18,7 +17,7 @@ public abstract class Product implements Item {
   private Date manufacuredOn;
   private String name;
 
-  private int currentProductionNumber;
+  private static int currentProductionNumber = 1;
 
   //Constructor taking the String name as a parameter
   public Product(String name) {
@@ -52,9 +51,9 @@ public abstract class Product implements Item {
   //Formatting the toString method to print a pre-formatted message
   public String toString() {
     return
-          "Manufacturer  : " + manufacturer + "\n"
-        + "Serial Number : " + serialNumber + "\n"
-        + "Date          : " + manufacuredOn + "\n"
-        + "Name          : " + name + "\n";
+        "Manufacturer  : " + manufacturer + "\n"
+            + "Serial Number : " + serialNumber + "\n"
+            + "Date          : " + manufacuredOn + "\n"
+            + "Name          : " + name + "\n";
   }
 }
