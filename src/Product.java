@@ -25,6 +25,7 @@ public abstract class Product implements Item {
     this.name = name;
     serialNumber = currentProductionNumber++;
     manufacuredOn.getTime();
+    manufacturer = Item.manufacturer;
   }
 
   //Implementation of the interface methods
