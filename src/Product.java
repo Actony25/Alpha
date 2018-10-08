@@ -19,6 +19,13 @@ public abstract class Product implements Item {
 
   private static int currentProductionNumber = 1;
 
+  public Product() {
+    name = "Default Name";
+    serialNumber = currentProductionNumber++;
+    manufacuredOn.getTime();
+    manufacturer = Item.manufacturer;
+  }
+
   //Constructor taking the String name as a parameter
   public Product(String name) {
     this.name = name;
