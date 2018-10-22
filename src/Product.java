@@ -22,7 +22,7 @@ public abstract class Product implements Item {
   public Product() {
     name = "Default Name";
     serialNumber = currentProductionNumber++;
-    manufacuredOn.getTime();
+    manufacuredOn = new Date();
     manufacturer = Item.manufacturer;
   }
 
@@ -30,7 +30,7 @@ public abstract class Product implements Item {
   public Product(String name) {
     this.name = name;
     serialNumber = currentProductionNumber++;
-    manufacuredOn.getTime();
+    manufacuredOn = new Date();
     manufacturer = Item.manufacturer;
   }
 
