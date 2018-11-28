@@ -1,8 +1,8 @@
 /**
- Author: Anthony Cangelosi
- Description: MoviePlayer class to create and display a movie player. A movie player is a product
- that implements multimedia controls.
- Date: 10/22/18
+ * Author: Anthony Cangelosi
+ * Description: MoviePlayer class to create and display a movie player. A
+ * movie player is a product that implements multimedia controls.
+ * Date: 10/22/18
  */
 
 public class MoviePlayer extends Product implements MultimediaControl {
@@ -44,7 +44,7 @@ public class MoviePlayer extends Product implements MultimediaControl {
   //Formatted toString method to print a pre-formatted message
   public String toString() {
     return super.toString()
-      + "Screen Specs  : " + screen + "\n"
-      + "Monitor Type  : " + monitorType + "\n";
+        + "Screen Specs  : " + screen + "\n"
+        + "Monitor Type  : " + monitorType + "\n";
   }
 }

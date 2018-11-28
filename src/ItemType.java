@@ -1,7 +1,8 @@
 /**
- Author: Anthony Cangelosi
- Description: ItemType enum to create a special data type of each type of item in production
- Date: 9/29/18
+ * Author: Anthony Cangelosi
+ * Description: ItemType enum to create a special data type of each type
+ * of item in production
+ * Date: 9/29/18
  */
 
 /*An enum is basically creating a special data type that will allow a variable to
@@ -23,7 +24,7 @@ public enum ItemType {
   }
 
   //Get method so the private String type can be accessed outside of this class
-  public String getCode(){
+  public String getCode() {
     return code;
   }
 }

@@ -1,6 +1,7 @@
 /**
  Author: Anthony Cangelosi
- Description: ScreenSpec Interface made to provide the basis for every Screen to be put into production
+ Description: ScreenSpec Interface made to provide the basis for every Screen to be put into
+ production
  Date: 10/22/18
  */
 

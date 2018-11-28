@@ -1,8 +1,8 @@
 /**
- Author: Anthony Cangelosi
- Description: AudioPlayer class to create and display an audio player. An audio player is a product
- that implements multimedia controls.
- Date: 10/22/18
+ * Author: Anthony Cangelosi
+ * Description: AudioPlayer class to create and display an audio player.
+ * An audio player is a product that implements multimedia controls.
+ * Date: 10/22/18
  */
 
 public class AudioPlayer extends Product implements MultimediaControl {
@@ -44,7 +44,7 @@ public class AudioPlayer extends Product implements MultimediaControl {
   //Formatted toString method to print a pre-formatted message
   public String toString() {
     return super.toString()
-      + "Audio Spec    : " + audioSpecification + "\n"
-      + "Item Type     : " + mediaType + "\n";
+        + "Audio Spec    : " + audioSpecification + "\n"
+        + "Item Type     : " + mediaType + "\n";
   }
 }

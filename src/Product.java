@@ -1,8 +1,8 @@
 /**
-  Author: Anthony Cangelosi
-  Description: Abstract Product class to create and display a full
-  product, utilizing the basis from the Item Interface.
- Date: 9/29/18
+ * Author: Anthony Cangelosi
+ * Description: Abstract Product class to create and display a full
+ * product, utilizing the basis from the Item Interface.
+ * Date: 9/29/18
  */
 
 //importing java utilities to allow creation of a date method
@@ -68,8 +68,8 @@ public abstract class Product implements Item, Comparable<Product> {
   public String toString() {
     return
         "Manufacturer  : " + manufacturer + "\n"
-        + "Serial Number : " + serialNumber + "\n"
-        + "Date          : " + manufacuredOn + "\n"
-        + "Name          : " + name + "\n";
+            + "Serial Number : " + serialNumber + "\n"
+            + "Date          : " + manufacuredOn + "\n"
+            + "Name          : " + name + "\n";
   }
 }

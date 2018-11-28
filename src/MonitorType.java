@@ -1,7 +1,8 @@
 /**
- Author: Anthony Cangelosi
- Description: MonitorType enum to create a special data type of each type monitor used in production
- Date: 10/22/18
+ * Author: Anthony Cangelosi
+ * Description: MonitorType enum to create a special data type of each
+ * type monitor used in production
+ * Date: 10/22/18
  */
 
 public enum MonitorType {
@@ -19,7 +20,7 @@ public enum MonitorType {
   }
 
   //Get method so the private String type can be accessed outside of this class
-  public String getType(){
+  public String getType() {
     return Type;
   }
 }
