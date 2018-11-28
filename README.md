@@ -26,3 +26,6 @@
     -@TPettis<br/>
   Professor<br/>
   -@profvanselow
+
+<b>Class Diagram</b><br/>
+<img src = "ClassDiagrams.PNG" />
