@@ -40,7 +40,7 @@ public class Main {
 
       switch (mainMenuChoice) {
         case 1: //Start case 1: Add new product
-          do {
+          do { //Loop for productMenuChoice. Will continue if acceptable input is given
             System.out.println("Which product would you like to add? (Enter a number)");
             System.out.println("1. Audio Player");
             System.out.println("2. Movie Player");
