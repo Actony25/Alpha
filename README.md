@@ -1,6 +1,7 @@
 # Alpha
 <b>Overview</b><br/>
-  Creation of a program in Java for creating and recording all future production line items.
+  Creation of a program in Java for creating and recording all future production line items. <br>
+  The user has a menu to traverse that will give them the options to add products such as an audio player or movie player as well as display the current list of products.
 
 <b>Interface</b><br/>
   The interface Item is created so every class that implements the interface will be able to have the characteristics
